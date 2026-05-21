@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALVIKRAF - Tots els cursos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/icons/logo.png" alt="ALVIKRAF" class="main-logo">
+            </a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Cercar...">
+            <button class="search-btn">🔍</button>
+        </div>
+    </header>
+    <main class="catalog-container">
+        <h2 class="catalog-title">Tots els cursos</h2>
+        <div class="categories-wrapper">
+            <!-- Àrea Informàtica -->
+            <section class="category-block info-block">
+                <h3>Àrea Informàtica</h3>
+                <div class="category-grid">
+                    <button class="course-card-dark bg-web" onclick="window.location.href='curs-detall.html'">Aplicacions Web</button>
+                    <button class="course-card-dark bg-js" onclick="window.location.href='curs-detall.html'">JavaScript Modern</button>
+                    <button class="course-card-dark bg-sql" onclick="window.location.href='curs-detall.html'">Bases de Dades SQL</button>
+                    <button class="course-card-dark bg-digital" onclick="window.location.href='curs-detall.html'">Digitalització</button>
+                    <button class="course-card-dark bg-cyber" onclick="window.location.href='curs-detall.html'">Ciberseguretat Bàsica</button>
+                    <button class="course-card-dark bg-html" onclick="window.location.href='curs-detall.html'">HTML i CSS Complet</button>
+                </div>
+            </section>
+            <!-- Àrea Llengües -->
+            <section class="category-block languages-block">
+                <h3>Àrea Llengües</h3>
+                <div class="category-grid">
+                    <button class="course-card-dark bg-eng1" onclick="window.location.href='curs-detall.html'">Anglès Tècnic B1</button>
+                    <button class="course-card-dark bg-eng2" onclick="window.location.href='curs-detall.html'">Anglès de Negocis B2</button>
+                    <button class="course-card-dark bg-ger" onclick="window.location.href='curs-detall.html'">Alemany des de zero A1</button>
+                    <button class="course-card-dark bg-fre" onclick="window.location.href='curs-detall.html'">Francès Professional A2</button>
+                    <button class="course-card-dark bg-cat" onclick="window.location.href='curs-detall.html'">Català Comercial C1</button>
+                    <button class="course-card-dark bg-exams" onclick="window.location.href='curs-detall.html'">Preparació d'Exàmens Oficials</button>
+                </div>
+            </section>
+            <!-- Àrea Ciències -->
+            <section class="category-block science-block">
+                <h3>Àrea Ciències</h3>
+                <div class="category-grid-narrow">
+                    <button class="course-card-dark bg-math" onclick="window.location.href='curs-detall.html'">Matemàtiques</button>
+                    <button class="course-card-dark bg-stats" onclick="window.location.href='curs-detall.html'">Estadística Aplicada</button>
+                    <button class="course-card-dark bg-phys" onclick="window.location.href='curs-detall.html'">Física per a Videojocs</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <p>Troba la formació ideal per al teu futur en el nostre catàleg complet de cursos.</p>
+        <div class="footer-actions">
+            <a href="sobre-nosaltres.html" class="footer-btn">Més informació</a>
+            <a href="contacte.html" class="footer-btn">Contacta amb nosaltres</a>
+        </div>
+    </footer>
+</body>
+</html>

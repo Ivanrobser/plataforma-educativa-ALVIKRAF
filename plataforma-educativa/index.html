@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALVIKRAF - Inici</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <a href="index.html" class="logo-link">
+                <img src="assets/icons/logo.png" alt="ALVIKRAF" class="main-logo">
+            </a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Cercar...">
+            <button class="search-btn">🔍</button>
+        </div>
+    </header>
+    <main class="dashboard-container">
+        <section class="tasks-panel">
+            <h2>Tasques Pendents</h2>
+            <div class="tasks-list">
+                <button class="task-btn urgent">⚠️ Lliurament Pràctica 1: HTML i CSS (Avui)</button>
+                <button class="task-btn urgent">⚠️ Qüestionari d'Anglès Tècnic B1 (Demà)</button>
+                <button class="task-btn urgent">⚠️ Examen Parcial de Base de Dades (Divendres)</button>
+                <button class="task-btn urgent">⚠️ Lliurament Pràctica 1: Packet Tracer (Próxima setmana)</button>
+                <button class="task-btn urgent">⚠️ Lliurament Pràctica 4: Python (Próxima setmana)</button>
+                <button class="task-btn urgent">⚠️ Lliurament Pràctica 3: Excel (Próxima setmana)</button>
+                <button class="task-btn urgent">⚠️ Lliurament Pràctica 3: Nóminas (Próxima setmana)</button>
+            </div>
+        </section>
+        <section class="courses-panel">
+            <h2><a href="cursos.html" class="title-link">Cursos Actius</a></h2>
+            <div class="courses-grid">
+                <button class="course-card web-bg" onclick="window.location.href='curs-detall.html'">Aplicacions Web</button>
+                <button class="course-card prog-bg" onclick="window.location.href='curs-detall.html'">Programació</button>
+                <button class="course-card os-bg" onclick="window.location.href='curs-detall.html'">Sistemes Operatius</button>
+                <button class="course-card net-bg" onclick="window.location.href='curs-detall.html'">Xarxes</button>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>Comença avui mateix a millorar les teves habilitats professionals des del nostre panell de control.</p>
+        <div class="footer-actions">
+            <a href="sobre-nosaltres.html" class="footer-btn">Més informació</a>
+            <a href="contacte.html" class="footer-btn">Contacta amb nosaltres</a>
+        </div>
+    </footer>
+</body>
+</html>
