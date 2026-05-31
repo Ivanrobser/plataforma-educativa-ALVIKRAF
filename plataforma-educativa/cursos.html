@@ -9,60 +9,57 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="main-header">
+    <header class="header">
         <div class="logo-container">
             <a href="index.html" class="logo-link">
-                <img src="assets/icons/logo.png" alt="ALVIKRAF" class="main-logo">
+                <img src="assets/icons/logo.png" alt="ALVIKRAF" class="logo">
             </a>
         </div>
         <div class="search-container">
             <input type="text" placeholder="Cercar...">
-            <button class="search-btn">🔍</button>
+            <button>🔍</button>
         </div>
     </header>
-    <main class="catalog-container">
-        <h2 class="catalog-title">Tots els cursos</h2>
-        <div class="categories-wrapper">
-            <!-- Àrea Informàtica -->
-            <section class="category-block info-block">
+    <main class="catalogo-container">
+        <h2 class="catalogo-titulo">Tots els cursos</h2>
+        <div class="todos-cursos">
+            <section class="bloques-cursos info-block">
                 <h3>Àrea Informàtica</h3>
-                <div class="category-grid">
-                    <button class="course-card-dark bg-web" onclick="window.location.href='curs-detall.html'">Aplicacions Web</button>
-                    <button class="course-card-dark bg-js" onclick="window.location.href='curs-detall.html'">JavaScript Modern</button>
-                    <button class="course-card-dark bg-sql" onclick="window.location.href='curs-detall.html'">Bases de Dades SQL</button>
-                    <button class="course-card-dark bg-digital" onclick="window.location.href='curs-detall.html'">Digitalització</button>
-                    <button class="course-card-dark bg-cyber" onclick="window.location.href='curs-detall.html'">Ciberseguretat Bàsica</button>
-                    <button class="course-card-dark bg-html" onclick="window.location.href='curs-detall.html'">HTML i CSS Complet</button>
+                <div class="botones-cursos">
+                    <button class="curso web" onclick="window.location.href='curs-detall.html'">Aplicacions Web</button>
+                    <button class="curso js" onclick="window.location.href='curs-detall.html'">JavaScript Modern</button>
+                    <button class="curso sql" onclick="window.location.href='curs-detall.html'">Bases de Dades SQL</button>
+                    <button class="curso digital" onclick="window.location.href='curs-detall.html'">Digitalització</button>
+                    <button class="curso cyber" onclick="window.location.href='curs-detall.html'">Ciberseguretat Bàsica</button>
+                    <button class="curso html" onclick="window.location.href='curs-detall.html'">HTML i CSS Complet</button>
                 </div>
             </section>
-            <!-- Àrea Llengües -->
-            <section class="category-block languages-block">
+            <section class="bloques-cursos lenguas-block">
                 <h3>Àrea Llengües</h3>
-                <div class="category-grid">
-                    <button class="course-card-dark bg-eng1" onclick="window.location.href='curs-detall.html'">Anglès Tècnic B1</button>
-                    <button class="course-card-dark bg-eng2" onclick="window.location.href='curs-detall.html'">Anglès de Negocis B2</button>
-                    <button class="course-card-dark bg-ger" onclick="window.location.href='curs-detall.html'">Alemany des de zero A1</button>
-                    <button class="course-card-dark bg-fre" onclick="window.location.href='curs-detall.html'">Francès Professional A2</button>
-                    <button class="course-card-dark bg-cat" onclick="window.location.href='curs-detall.html'">Català Comercial C1</button>
-                    <button class="course-card-dark bg-exams" onclick="window.location.href='curs-detall.html'">Preparació d'Exàmens Oficials</button>
+                <div class="botones-cursos">
+                    <button class="curso eng1" onclick="window.location.href='curs-detall.html'">Anglès Tècnic B1</button>
+                    <button class="curso eng2" onclick="window.location.href='curs-detall.html'">Anglès de Negocis B2</button>
+                    <button class="curso ale" onclick="window.location.href='curs-detall.html'">Alemany des de zero A1</button>
+                    <button class="curso fra" onclick="window.location.href='curs-detall.html'">Francès Professional A2</button>
+                    <button class="curso cat" onclick="window.location.href='curs-detall.html'">Català Comercial C1</button>
+                    <button class="curso examen" onclick="window.location.href='curs-detall.html'">Preparació d'Exàmens Oficials</button>
                 </div>
             </section>
-            <!-- Àrea Ciències -->
-            <section class="category-block science-block">
+            <section class="bloques-cursos ciencias-block">
                 <h3>Àrea Ciències</h3>
-                <div class="category-grid-narrow">
-                    <button class="course-card-dark bg-math" onclick="window.location.href='curs-detall.html'">Matemàtiques</button>
-                    <button class="course-card-dark bg-stats" onclick="window.location.href='curs-detall.html'">Estadística Aplicada</button>
-                    <button class="course-card-dark bg-phys" onclick="window.location.href='curs-detall.html'">Física per a Videojocs</button>
+                <div class="botones-cursos1">
+                    <button class="curso mates" onclick="window.location.href='curs-detall.html'">Matemàtiques</button>
+                    <button class="curso estadistica" onclick="window.location.href='curs-detall.html'">Estadística Aplicada</button>
+                    <button class="curso fisica" onclick="window.location.href='curs-detall.html'">Física per a Videojocs</button>
                 </div>
             </section>
         </div>
     </main>
-    <footer class="main-footer">
+    <footer class="footer">
         <p>Troba la formació ideal per al teu futur en el nostre catàleg complet de cursos.</p>
-        <div class="footer-actions">
-            <a href="sobre-nosaltres.html" class="footer-btn">Més informació</a>
-            <a href="contacte.html" class="footer-btn">Contacta amb nosaltres</a>
+        <div class="botones-footer">
+            <a href="sobre-nosaltres.html" class="footer-boton">Més informació</a>
+            <a href="contacte.html" class="footer-boton">Contacta amb nosaltres</a>
         </div>
     </footer>
 </body>

@@ -2,13 +2,13 @@
     --bg-main: #e0e0e0;       
     --bg-container: #7f7f7f;  
     --bg-footer: #cccccc;     
-    --color-urgent: #d31a1a;    
-    --color-dark-btn: #2d2d2d;  
-    --color-green-bright: #00a86b; 
+    --color-pendiente: #d31a1a;    
+    --color-oscuro-boton: #2d2d2d;  
+    --color-verde: #00a86b; 
     --color-info: #5b6d8a;      
-    --color-languages: #4b8f52; 
-    --color-science: #537a8a;   
+    --color-lengua: #4b8f52; 
+    --color-ciencia: #537a8a;   
     --font-family: Arial, sans-serif;
-    --text-white: #ffffff;
-    --text-dark: #000000;
+    --text-blanco: #ffffff;
+    --texto-negro: #000000;
 }
